@@ -1,0 +1,37 @@
+body {
+    background-color: #fdf1e0;
+  }
+
+.logo img{
+    border-radius: 5px;
+    height: 100px;
+    width: 300px;
+    object-fit: cover;
+}
+img {
+    border-radius: 5px;
+    height: 400px;
+    width: 550px;
+    object-fit: cover;
+    margin: 20px 0px;
+}
+
+p {
+    background-color: 	#D27D2D;
+    color: black;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    max-width: 30%;
+    min-width: 285px;
+    margin: 20px 0px;
+    padding: 8px;
+    align-items: center;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -38,7 +38,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static" style={{ background: '#2E3B55' }}>
+    <AppBar position="static" style={{ background: '#7B3F00' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <RemoveRedEyeOutlinedIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -57,7 +57,7 @@ function Navbar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            DR. NISSAN
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -117,7 +117,7 @@ function Navbar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            DR.NISSAN
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
