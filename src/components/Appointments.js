@@ -1,5 +1,4 @@
 import React from "react";
-import './css/Appointments.css';
 import glasses from './img/glasses.png';
 import Button from '@mui/material/Button';
 

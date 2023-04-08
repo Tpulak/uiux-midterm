@@ -1,19 +1,16 @@
 import React from "react";
+import glasses from './img/glasses.png';
 import Button from '@mui/material/Button';
 
 const Reviews = () => {
     return ( 
         <div className="App">
-            Reviews route
-            <h2>Add materiaului button to go to review page</h2>
-            <p>
-            <Button variant="outlined">Testing</Button>
-            </p>
-            <h3>TODO: Remove styling from navbar, 
-                change logo to dr[],
-                add pics,
-                set up materialui button + gridbox & flex
-                </h3>
+            <div className="logo">
+                <img src={glasses} alt="glasses" />
+            </div>
+            <h1>REVIEWS</h1>
+            <h3>To view satsified patient's experiences or to write a review yourself, please click the following.</h3>
+            <Button sx={{bgcolor : '#D27D2D', ":hover": {bgcolor: "#D27D2D"} }} variant="contained" color="info" >Reviews</Button>
         </div>
     );
 }
