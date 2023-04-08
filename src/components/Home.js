@@ -6,7 +6,7 @@ import location from './img/location.jpg';
 const Home = () => {
     return ( 
         <div className="App">
-
+            
             <div className="logo">
                 <img src={glasses} alt="glasses" />
             </div>
