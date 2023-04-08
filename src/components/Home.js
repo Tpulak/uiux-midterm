@@ -12,7 +12,6 @@ const Home = () => {
             </div>
 
             <h1>DR. NISSAN'S EYE PLACE OPTOMETRY</h1>
-            <h5>change font & navbar</h5>
 
             <div className="homepage"> 
                 <img src={location} alt="location" />

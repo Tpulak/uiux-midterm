@@ -16,7 +16,12 @@ img {
     margin: 20px 0px;
 }
 
+h1 {
+    font-family: "Oxygen";
+  }
+
 p {
+    font-family: "Oxygen";
     background-color: 	#D27D2D;
     color: black;
     font-size: 1.3rem;

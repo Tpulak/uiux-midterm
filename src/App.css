@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -12,6 +13,15 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+h1 {
+  font-family: "Oxygen";
+}
+
+h3 {
+  font-family: "Oxygen";
+}
+
 
 .App-header {
   background-color: #282c34;
